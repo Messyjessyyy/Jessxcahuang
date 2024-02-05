@@ -1,0 +1,14 @@
+#Draws a decagon, using the turtle module 
+
+#Import the turtle commands to use below:
+import turtle
+
+#Create a turtle, named: thomasH
+thomasH = turtle.Turtle()
+
+#Repeat 0 times:
+for i in range(10):
+  thomasH.forward(60)  #Move thomasH forward 120 steps
+  thomasH.left(360/10)      #Turn thomasH 30 degrees to the left 
+  for i in range (3):
+    print "I like turtle" 
